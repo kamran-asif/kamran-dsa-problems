@@ -8,6 +8,7 @@
  */
 class Solution {
 public:
+//yha pr do pointer liy hai tmp1 and temp2 or temp1 jb null hojayega to usko dusre wale ll ki head pr dal denge or bdhate chlenge temp1 ko or temp2 dono ko phr temp2 null hoga to usko bhi same tem1 pr dal denge or dono pointer ko bdhaayenge or phr jha pr vo log mil jayega vhi node return krdnge
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
      ListNode*temp1=headA;
       ListNode*temp2=headB;
